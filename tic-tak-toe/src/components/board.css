@@ -1,0 +1,33 @@
+.board {
+    width: 100%;
+    align-items: center;
+}
+.square {
+    width: 70px;
+    height: 70px;
+    border: 1px solid purple;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: purple;
+}
+
+.status {
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+}
